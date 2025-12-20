@@ -254,3 +254,154 @@ header {
   cursor: pointer;
   border-radius: 5px;
 }
+
+/* Tablets & small screens */
+@media (max-width: 728px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+  nav,
+  .nav-bar,
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+  .items-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 10px;
+  }
+
+  .item-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .products-container,
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  
+  .cart-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .cart-item {
+    width: 100%;
+  }
+  
+}
+
+
+
+/* Phones & small screens */
+@media (max-width: 480px) {
+  .items-container,
+  .products-container,
+  .product-container {
+    grid-template-columns: 1fr;
+  }
+
+  nav ul,
+  .nav-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .bag-item-count {
+    font-size: 12px;
+    padding: 2px 6px;
+  }
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .logo_container {
+    margin: 0;
+  }
+
+  .home_logo {
+    height: 60px;
+  }
+
+  
+  .nav_bar {
+    min-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav_bar a {
+    padding: 10px 8px;
+    font-size: 12px;
+    border-bottom: none;
+  }
+
+  /* Search bar */
+  .search_bar {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  /* Action icons (profile, cart) */
+  .action_bar {
+    width: 100%;
+    margin: 10px 0 0 0;
+    justify-content: space-evenly;
+  }
+
+  .action_container {
+    font-size: 12px;
+  }
+
+  .bag-item-count {
+    top: -35px;
+    left: 10px;
+  }
+}
+
+/* Very small phones (380px and below) */
+@media (max-width: 380px) {
+
+  .home_logo {
+    height: 50px;
+  }
+
+  .nav_bar a {
+    font-size: 11px;
+  }
+
+  .search_bar {
+    height: 36px;
+  }
+
+  .search_input {
+    font-size: 12px;
+  }
+
+  .action_container {
+    font-size: 11px;
+  }
+}
+
+
+
