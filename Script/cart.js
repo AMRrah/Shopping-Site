@@ -47,6 +47,12 @@ function displaybagsummary() {
           </button>`;
 }
 function placeOrder() {
+  
+     bagItems = [];
+  localStorage.removeItem("bagItems");
+
+ 
+  bagitemobjects = [];
   window.location.href = "order.html";
  
 
