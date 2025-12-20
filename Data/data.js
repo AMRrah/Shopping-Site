@@ -459,7 +459,7 @@ const products = [
     original_price: 5995,
     current_price: 4796,
     color:'Black',
-    category:'Electronics' ,
+    category:'Watchs' ,
     discount_percentage: 20,
     return_period: 14,
     delivery_date: "22 dec 2025",
@@ -479,7 +479,7 @@ const products = [
     current_price: 1495,
     discount_percentage: 0,
     return_period: 14,
-       category:'Electronics' ,
+       category:'Watchs' ,
     color:'Blue',
     delivery_date: "22 dec 2025",
     rating: {
@@ -498,10 +498,11 @@ const products = [
     color:'Black',
     discount_percentage: 0,
     return_period: 14,
+    category:'Watchs' ,
     delivery_date: "22 dec 2025",
     rating: {
       stars: 3.5,
-         category:'Electronics' ,
+         
       count: 3300,
     },
     Convenience_fee: 99,
@@ -516,7 +517,7 @@ const products = [
     current_price: 4495,
     discount_percentage: 10,
     return_period: 14,
-       category:'Electronics' ,
+       category:'Watchs' ,
     delivery_date: "22 dec 2025",
     rating: {
       stars: 4.2,
@@ -532,7 +533,7 @@ const products = [
     original_price: 1995,
     current_price: 1995,
     color:'Blue',
-       category:'Electronics' ,
+       category:'Watchs' ,
     discount_percentage: 0,
     return_period: 14,
     delivery_date: "22 dec 2025",
@@ -552,7 +553,7 @@ const products = [
     
     color:'Gold',
     discount_percentage: 0,
-       category:'Electronics' ,
+       category:'Watchs' ,
     return_period: 14,
     delivery_date: "22 dec 2025",
     rating: {
