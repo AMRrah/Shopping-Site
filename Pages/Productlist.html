@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangers Shopping</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+
+          <div class="logo_container">
+        <a href="../index.html"
+          ><img
+            class="home_logo"
+            src="../Images/Ranger logo.jpg"
+            alt="Home Logo"
+        /></a>
+      </div>
+      <nav class="nav_bar">
+         <a href="../index.html">Men's wear</a>
+          <a href="#">Electronics</a>
+          <a href="#">shoes</a>
+          <a href="#">watch's</a>
+      </nav>
+      <div class="search_bar">
+        <span class="material-symbols-outlined search_icon">search</span>
+        <input
+          class="search_input"
+          placeholder="Search for products, brands and more" />
+      </div>
+      <div class="action_bar">
+        <div class="action_container">
+          <span class="material-symbols-outlined action_icon">person</span>
+          <span class="action_name">Profile</span>
+        </div>
+
+        <div class="action_container">
+          <span class="material-symbols-outlined action_icon">favorite</span>
+          <span class="action_name">Wishlist</span>
+        </div>
+
+        <a class="action_container" href="./AddCart.html">
+          <span class="material-symbols-outlined action_icon"
+            >shopping_bag</span
+          >
+          <span class="action_name">Bag</span>
+          <span class="bag-item-count">0</span>
+        </a>
+      </div>
+    </header>
+    <div class="filters">
+  <select id="ItemsFilter">
+    <option value="">Items</option>
+    <option value="Menswear">Men's wear </option>
+    <option value="Electronics">Electronics</option>
+    <option value="Shoes">Shoes</option>
+    <option value="Watchs">Watchs</option>
+  </select>
+
+  <select id="colorFilter">
+    <option value="">Color</option>
+    <option value="Black">Black</option>
+    <option value="White">white</option>
+    <option value="Blue">Blue</option>
+    <option value="Green">Green</option>
+  </select>
+
+  <select id="sortFilter">
+    <option value="">Sort By</option>
+    <option value="priceLow">Price: Low to High</option>
+    <option value="priceHigh">Price: High to Low</option>
+    <option value="ratingHigh">Rating</option>
+  </select>
+
+  <!-- APPLY BUTTON -->
+  <button class="apply-btn" onclick="applyFilters()">Apply</button>
+</div>
+
+    <main>
+      <div class="items-container " >
+        <!-- <img class="item_image" src="./Images/Home-page/i phone.jpg" alt=""> -->
+      </div>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men's wear</a>
+          <a href="#">Electronics</a>
+          <a href="#">shoes</a>
+          <a href="#">watch's</a>
+          
+          <a href="#">Gift Card</a>
+          <a href="#">Ranger Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+         <a href="#">Men's wear</a>
+          <a href="#">Electronics</a>
+          <a href="#">shoes</a>
+          <a href="#">watch's</a>
+          
+          <a href="#">Gift Card</a>
+          <a href="#">Ranger Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men's wear</a>
+          <a href="#">Electronics</a>
+          <a href="#">shoes</a>
+          <a href="#">watch's</a>
+          
+          <a href="#">Gift Card</a>
+          <a href="#">Ranger Insider</a>
+        </div>
+      </div>
+      <hr />
+
+      <div class="copyright">© 2025 www.Ranger.com. All rights reserved.</div>
+    </footer>
+ 
+    
+    <script src="../Data/data.js"></script>
+    <!-- <script src="./Script/home.js"></script> -->
+    <script src="../Script/index.js"></script>
+    <!-- <script src="../Script/product.js"></script> -->
+
+</body>
+</html>
