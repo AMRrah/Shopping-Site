@@ -134,3 +134,85 @@
   height: 14px;
   cursor: pointer;
 }
+
+
+
+/* Small tablets & large phones */
+@media (max-width: 480px) {
+
+
+  .bag-page {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+
+  .bag-items-container,
+  .bag-summary {
+    width: 100%;
+    display: block;
+    padding: 0;
+    border-right: none;
+  }
+
+  .bag-summary {
+    margin-top: 20px;
+  }
+
+  .bag-item-container {
+    padding: 10px;
+  }
+
+  .item-left-part {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: transparent;
+  }
+
+  .item-right-part {
+    margin-left: 0;
+    padding-left: 0;
+    min-height: auto;
+  }
+
+  .bag-item-img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+  }
+
+
+  .remove-from-cart {
+    top: 5px;
+    right: 10px;
+    font-size: 22px;
+  }
+
+  .btn-place-order {
+    font-size: 15px;
+    padding: 12px;
+  }
+}
+
+/* Very small phones (380px and below) */
+@media (max-width: 380px) {
+
+  .price-item {
+    font-size: 13px;
+  }
+
+  .price-footer {
+    font-size: 14px;
+  }
+
+  .delivery-details {
+    font-size: 11px;
+  }
+
+  .return-period {
+    font-size: 12px;
+  }
+}
+
