@@ -47,7 +47,10 @@ function displaybagsummary() {
           </button>`;
 }
 function placeOrder() {
-  
+  if(bagItems.length===0){
+    alert("Your Cart Is Empty. Please Add Items Before Placing An Order ")
+    return 
+  }
      bagItems = [];
   localStorage.removeItem("bagItems");
 
