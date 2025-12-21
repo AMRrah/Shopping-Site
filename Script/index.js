@@ -1,4 +1,7 @@
 let bagItems = [];
+
+const searchInput = document.getElementById("searchInput");
+const searchBtn = document.getElementById("searchBtn")
 onload();
 
 function onload() {
@@ -22,6 +25,35 @@ function displaybagCount() {
     bagitemcountelement.style.visibility = "hidden";
   }
 }
+// search ;
+
+// Click on search icon
+searchBtn.addEventListener("click", searchProducts);
+
+// Press Enter key
+searchInput.addEventListener("keyup", function (e) {
+  if (e.key === "Enter") {
+    searchProducts();
+  }
+});
+
+searchInput.addEventListener("input", function () {
+  if (this.value.trim() === "") {
+    displayhome();
+  }
+});
+
+function searchProducts() {
+  const searchValue = searchInput.value.toLowerCase().trim();
+
+  const filteredProducts = products.filter(item =>
+    item.item_name.toLowerCase().includes(searchValue) ||
+    item.company.toLowerCase().includes(searchValue)
+  );
+
+  renderFilteredProducts(filteredProducts);
+}
+
 
 function displayhome() {
     
