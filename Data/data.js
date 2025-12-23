@@ -107,7 +107,7 @@ const items = [
 
 const products = [
   {
-    id: "001",
+    id: 1,
     image: "../Images/product-page/1.jpg",
     company: "Carlton London",
     item_name: " T-shirt",
@@ -126,7 +126,7 @@ const products = [
     Convenience_fee: 99,
   },
   {
-    id: "002",
+    id: 2,
     image: "../Images/product-page/2.jpg",
     company: "Carlton London ",
     item_name: "T-shirt",
@@ -145,7 +145,7 @@ const products = [
     Convenience_fee: 99,
   },
   {
-    id: "003",
+    id: 3,
     image: "../Images/product-page/3.jpg",
     company: "Carlton London",
     item_name: "T-shirt",
@@ -163,8 +163,8 @@ const products = [
     Convenience_fee: 99,
   },
   {
-    id: "004",
-    image: " ../Images/product-page/4.jpg",
+    id: 4,
+    image: "../Images/product-page/4.jpg",
     company: "Carlton London",
     item_name: "T-shirt",
     original_price: 799,
@@ -181,7 +181,7 @@ const products = [
     Convenience_fee: 99,
   },
   {
-    id: "005",
+    id: 5,
     image: "../Images/product-page/5.jpg",
     company: "Carlton London",
     item_name: "T-shirt",
@@ -199,8 +199,8 @@ const products = [
     Convenience_fee: 99,
   },
   {
-    id: "006",
-    image: "  ../Images/product-page/6.jpg",
+    id: 6,
+    image: "../Images/product-page/6.jpg",
     company: "Carlton London",
     item_name: "T-shirt",
     original_price: 395,
@@ -217,8 +217,8 @@ const products = [
     Convenience_fee: 99,
   },
   {
-   id: "007",
-    image: "  ../Images/product-page/7.jpg",
+   id: 7,
+    image: "../Images/product-page/7.jpg",
     company: "MobilePhone",
     name:'phone',
     item_name: "Redmi",
@@ -237,8 +237,8 @@ const products = [
 
   },
   {
-    id: "008",
-    image: "  ../Images/product-page/8.jpg",
+    id: 8,
+    image: "../Images/product-page/8.jpg",
     company: "MobilePhone",
     name:'phone',
     color:'Blue',
@@ -257,8 +257,8 @@ const products = [
 
   },
   {
-    id: "009",
-    image: "  ../Images/product-page/9.jpg",
+    id: 9,
+    image: "../Images/product-page/9.jpg",
    company: "MobilePhone",
     name:'phone',
     category:'Electronics' ,
@@ -277,8 +277,8 @@ const products = [
 
   },
   {
-    id: "010",
-    image: "  ../Images/product-page/10.jpg",
+    id: 10,
+    image: "../Images/product-page/10.jpg",
     company: "MobilePhone",
     name:'phone',
     category:'Electronics' ,
@@ -296,8 +296,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "011",
-    image: "  ../Images/product-page/11.jpg",
+    id: 11,
+    image: "../Images/product-page/11.jpg",
     company: "MobilePhone",
     category:'Electronics' ,
     name:'phone',
@@ -316,8 +316,8 @@ const products = [
 
   },
    {
-    id: "012",
-    image: "  ../Images/product-page/12.jpg",
+    id: 12,
+    image: "../Images/product-page/12.jpg",
    company: "MobilePhone",
     name:'phone',
     color:'White',
@@ -338,8 +338,8 @@ const products = [
    
    
    {
-    id: "013",
-    image: "  ../Images/product-page/13.jpg",
+    id: 13,
+    image: "../Images/product-page/13.jpg",
     company: "Shoes",
     item_name: "Athletic Shoes",
     original_price: 2995,
@@ -357,8 +357,8 @@ const products = [
 
   },
    {
-    id: "014",
-    image: "  ../Images/product-page/14.jpg",
+    id: 14,
+    image: "../Images/product-page/14.jpg",
    company: "Shoes",
    color:'white&lightblue',
     item_name: "Athletic Shoes",
@@ -376,8 +376,8 @@ const products = [
 
   },
    {
-    id: "015",
-    image: "  ../Images/product-page/15.jpg",
+    id: 15,
+    image: "../Images/product-page/15.jpg",
     company: "Shoes",
     color:'White',
     category:'Shoes' ,
@@ -395,8 +395,8 @@ const products = [
 
   },
    {
-    id: "016",
-    image: "  ../Images/product-page/16.jpg",
+    id: 16,
+    image: "../Images/product-page/16.jpg",
     company: "Shoes",
     category:'Shoes' ,
     item_name: "Athletic Shoes",
@@ -414,8 +414,8 @@ const products = [
 
   },
    {
-    id: "017",
-    image: "  ../Images/product-page/17.jpg",
+    id: 17,
+    image: "../Images/product-page/17.jpg",
    company: "Shoes",
     item_name: "Athletic Shoes",
     original_price: 3995,
@@ -433,8 +433,8 @@ const products = [
 
   },
    {
-    id: "018",
-    image: "  ../Images/product-page/18.jpg",
+    id: 18,
+    image: "../Images/product-page/18.jpg",
     company: "Shoes",
     color:'Black',
     category:'Shoes' ,
@@ -452,8 +452,8 @@ const products = [
 
   },
   {
-    id: "019",
-    image: "  ../Images/product-page/19.jpg",
+    id: 19,
+    image: "../Images/product-page/19.jpg",
     company: "watch",
     item_name: "Titen",
     original_price: 5995,
@@ -470,9 +470,9 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "020",
+    id: 20,
 
-    image: "  ../Images/product-page/20.jpg",
+    image: "../Images/product-page/20.jpg",
     company: "watch",
     item_name: "Hammer",
     original_price: 1495,
@@ -489,8 +489,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "021",
-    image: "  ../Images/product-page/21.jpg",
+    id: 21,
+    image: "../Images/product-page/21.jpg",
     company: "watch",
     item_name: "pabble",
     original_price: 1795,
@@ -508,8 +508,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "022",
-    image: "  ../Images/product-page/22.jpg",
+    id: 22,
+    image: "../Images/product-page/22.jpg",
     company: "watch",
     item_name: "Sonata",
     color:'Blue',
@@ -526,8 +526,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "023",
-    image: "  ../Images/product-page/23.jpg",
+    id: 23,
+    image: "../Images/product-page/23.jpg",
     company: "watch",
     item_name: "Smart watch",
     original_price: 1995,
@@ -544,8 +544,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "024",
-    image: "  ../Images/product-page/24.jpg",
+    id: 24,
+    image: "../Images/product-page/24.jpg",
     company: "watch",
     item_name: "Maxima",
     original_price: 2595,
@@ -563,8 +563,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "025",
-    image: "  ../Images/product-page/25.jpg",
+    id: 25,
+    image: "../Images/product-page/25.jpg",
     company: "Apple",
        category:'Electronics' ,
     item_name: "Airpods Pro",
@@ -582,8 +582,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "026",
-    image: "  ../Images/product-page/26.jpg",
+    id: 26,
+    image: "../Images/product-page/26.jpg",
     company: "google",
     item_name: "google pixel",
        category:'Electronics' ,
@@ -602,8 +602,8 @@ const products = [
 
   },
   {
-    id: "027",
-    image: "  ../Images/product-page/27.jpg",
+    id: 27,
+    image: "../Images/product-page/27.jpg",
     company: "Apple",
     item_name: "BlackView",
     original_price: 1595,
@@ -620,8 +620,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "028",
-    image: "  ../Images/product-page/28.jpg",
+    id: 28,
+    image: "../Images/product-page/28.jpg",
     company: "Apple",
     item_name: "Audionic",
     original_price: 1495,
@@ -638,8 +638,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "029",
-    image: "  ../Images/product-page/29.jpg",
+    id: 29,
+    image: "../Images/product-page/29.jpg",
     company: "Apple",
     item_name: "okno",
     original_price: 1095,
@@ -656,8 +656,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "030",
-    image: "  ../Images/product-page/30.jpg",
+    id: 30,
+    image: "../Images/product-page/30.jpg",
     company: "Apple",
     item_name: "Audionic",
     color:'Black',
@@ -674,8 +674,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "031",
-    image: "  ../Images/product-page/31.jpg",
+    id: 31,
+    image: "../Images/product-page/31.jpg",
     company: "Redmi",
        category:'Electronics' ,
     item_name: "MacBook Pro Laptop",
@@ -692,8 +692,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "032",
-    image: "  ../Images/product-page/32.jpg",
+    id: 32,
+    image: "../Images/product-page/32.jpg",
     company: "Apple",
     item_name: "MacBook Pro Laptop",
     original_price: 44995,
@@ -710,8 +710,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "033",
-    image: "  ../Images/product-page/33.jpg",
+    id: 33,
+    image: "../Images/product-page/33.jpg",
     company: "Apple",
        category:'Electronics' ,
     item_name: "MacBook Pro Laptop",
@@ -729,8 +729,8 @@ const products = [
 
   },
   {
-    id: "034",
-    image: "  ../Images/product-page/34.jpg",
+    id: 34,
+    image: "../Images/product-page/34.jpg",
     company: "Apple",
        category:'Electronics' ,
     item_name: "MacBook Pro Laptop",
@@ -747,8 +747,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "035",
-    image: "  ../Images/product-page/35.jpg",
+    id: 35,
+    image: "../Images/product-page/35.jpg",
     company: "Asus",
        category:'Electronics' ,
     item_name: " Asus Gaming laptop",
@@ -765,8 +765,8 @@ const products = [
     Convenience_fee: 99,
 
   },{
-    id: "036",
-    image: "  ../Images/product-page/36.jpg",
+    id: 36,
+    image: "../Images/product-page/36.jpg",
     company: "Dell",
     item_name: "MacBook Pro Laptop",
        category:'Electronics' ,
